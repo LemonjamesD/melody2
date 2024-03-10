@@ -1,0 +1,16 @@
+[package]
+name = "melody"
+version = "0.2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.80"
+cpal = { version = "0.15.2", default-features = false }
+hound = "3.5.1"
+nnnoiseless = "0.5.1"
+openai_dive = "0.4.5"
+tokio = { version = "1.36.0", features = ["full"] }
+wavers = "1.1.1"
+whisper-rs = "0.10.0"
